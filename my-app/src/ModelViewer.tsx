@@ -1,7 +1,6 @@
 // src/ModelViewer.tsx
-import React from 'react';
 import { Canvas } from '@react-three/fiber';
-import { OrbitControls, useGLTF } from '@react-three/drei';
+import { OrbitControls} from '@react-three/drei';
 import AnimatedModel from './AnimatedModel';
 const base = import.meta.env.BASE_URL;
 
